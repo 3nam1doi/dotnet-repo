@@ -1,13 +1,13 @@
 ﻿namespace CRUD.Models
 {
-    public class HangHoa
+    public class HangHoaVM
     {
         public string TenHangHoa { get; set; }
         public double DonGia { get; set; }
 
     }
 
-    public class HangHoaVM : HangHoa
+    public class HangHoa : HangHoaVM
     {
         public Guid MaHangHoa { get; set; }
     }
